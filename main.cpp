@@ -1,9 +1,9 @@
-#include <iostream>
+#include <iostream.h>
 using namespace std;
 
 class twointegers
 {
-public:
+private:
     int a;
     int b;
 };
