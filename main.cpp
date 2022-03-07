@@ -3,7 +3,7 @@ using namespace std;
 
 class twointegers
 {
-public:
+private:
     int a;
     int b;
 };
@@ -17,11 +17,3 @@ int main()
     return 0;
 }
 
-/*
-int main()
-{
-    twointegers t (5, 7);
-    cout << t.sum() << endl;
-    return 0;
-}
-*/
