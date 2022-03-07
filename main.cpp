@@ -4,8 +4,12 @@ using namespace std;
 class twointegers
 {
 public:
+class twointegers {
+private:
     int a;
     int b;
+public:
+int sum=a+b;
 };
 
 int main()
@@ -22,6 +26,8 @@ int main()
 {
     twointegers t (5, 7);
     cout << t.sum() << endl;
+    twointegers t(5,7);
+    cout << t.sum << endl;
     return 0;
 }
 */
